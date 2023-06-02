@@ -26,7 +26,16 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 - Download VC_redist.x86.exe (MS visual C++ ).
 - Download my SQL server.
 - Open IIS as an Admin,Register PHP from within IIS.
-- Dowload osTicket (osTicket-v1.15.8.)
+- Dowload osTicket (osTicket-v1.15.8.).
+- Enable Extensions.
+- Rename: ost-config.php.
+- Assign Permissions: ost-config.php.
+- Continue Setting up osTicket in the browser.
+- Download Heidi SQL (HeidiSQL_12.3.0.6589_Setup.exe).
+- Congratulations,it is installed.
+- Set Permissions to “Read” only: C:\inetpub\wwwroot\osTicket\include\ost-config.php
+
+ 
 
 <h2>Installation Steps</h2>
 
@@ -143,9 +152,125 @@ Reload IIS (Open IIS, Stop and Start the server) Go to sites -> Default -> osTic
 <br />
 
 <p>
-<img src="https://i.imgur.com/uULfo7p.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/f2qn9Ij.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-Write it down a new root password Example: "Password1" make sure you don't forget your password, keep it remember.
+Go back to IIS, sites -> Default -> osTicket  Double-click PHP Manager Click “Enable or disable an extension” Note that some extension are not enable.
 </p>
 <br />
+
+<p>
+<img src="https://i.imgur.com/A4NGCI2.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+Enable: php_imap.dll -> Enable: php_intl.dll -> Enable: php_opcache.dll.
+</p>
+<br />
+
+<p>
+<img src="https://i.imgur.com/sR4sTSn.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+Refresh the osTicket site in your browse, observe the changes and click continue.
+</p>
+<br />
+
+<p>
+<img src="https://i.imgur.com/2bQ9Isa.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+Go to C:\Drive ->inetpub ->wwwroot ->osTicket ->include ->ost-sampleconfig.php, Rename: ost-config.php
+</p>
+<br />
+
+<p>
+<img src="https://i.imgur.com/EGESdUy.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+Assign Permissions: ost-config.php ->Security ->Advance ->Disable inheritance -> Remove All.
+</p>
+<br />
+
+<p>
+<img src="https://i.imgur.com/SSqsoYp.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+New Permissions ->Add ->"click Select a principal on the top" -> write it down Everyone and click on Check Names ->Check all the unchecked boxes and click OK.
+</p>
+<br />
+
+<p>
+<img src="https://i.imgur.com/QVwmDTz.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+Click Continue and keep Setting up osTicket in the browser ->Name Helpdesk ->Default email(receives email from customers) ->Username ->Password.
+</p>
+<br />
+
+<p>
+<img src="https://i.imgur.com/9seakMs.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+Download Heidi SQL ->Next ->Install ->Finish.
+</p>
+<br />
+
+<p>
+<img src="https://i.imgur.com/SYFUVm1.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+Create a new session ->root ->Use the same passowrd of MYSQL Example: "Password1" and click Open.
+</p>
+<br />
+
+<p>
+<img src="https://i.imgur.com/Mul0ODu.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+Connect to the session, right click Unnamed ->Create new,Create a database called “osticket”
+</p>
+<br />
+
+<p>
+<img src="https://i.imgur.com/SIM0Tp7.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+Create a new database Name: "osticket"
+</p>
+<br />
+
+<p>
+<img src="https://i.imgur.com/PS2m6SA.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+Write it down the Database just created "osticket" into "osTicket System Installer" make sure you use the same user and password of MYSQL and click Install Now.
+</p>
+<br />
+
+<p>
+<img src="https://i.imgur.com/QDDIeK9.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+Congratulations, it is installed.Browse to your help desk login page:http://localhost/osTicket/scp/login.php End Users osTicket URL: http://localhost/osTicket/ Login with your Username and password which you set up.
+</p>
+<br />
+
+<p>
+<img src="https://i.imgur.com/LfBl8k1.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+Welcome to osTicket - (Admin Panel)
+</p>
+<br />
+
+
+<p>
+<img src="https://i.imgur.com/kiEqpOj.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+Clean up,Go to C:\Drive ->inetpub ->wwwroot ->osTicket -> Delete "Setup folder",Set Permissions to “Read” only: C:\Drive inetpub ->wwwroot ->osTicket ->include ->ost-config.php ->right click & properties->Security & Advanced -> click Everyone then Edit set a permisson by uncheck all boxes and leave Checked Read & execute , Read -> Apply and Ok. Enjoy using osTicket System!!
+
+</p>
+<br />
+
+
