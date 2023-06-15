@@ -139,7 +139,7 @@ After the PHP Register, Go to the left side on the top and click on "osticket" a
 <img src="https://i.imgur.com/kDzpfm9.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-Download osTicket (osTicket-v1.15.8.) go to the downloads folder and open osTicket downloaded foler,it's going to be 2 folders inside the osTicket folder 1- "upload", 2- "Scripts". Go to the File explore -> C/:Drive click on -> inetpub folder then -> wwwroot folder and move the "upload" folder into the wwwroot by simply drag and drop and rename Upload folder to "osTicket". 
+Download osTicket (osTicket-v1.15.8.) go to the downloads folder and open osTicket downloaded folder,it's going to be 2 folders inside the osTicket folder 1- "upload", 2- "Scripts". Go to the File explore -> C/:Drive click on -> inetpub folder then -> wwwroot folder and move the "upload" folder into the wwwroot by simply drag and drop and rename Upload folder to "osTicket". 
 </p>
 <br />
 
