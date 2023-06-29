@@ -40,7 +40,7 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 <h2>Installation Steps</h2>
 
 <p>
-<img src="https://i.imgur.com/gXex0rY.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/eVotAtq.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
 Once you connect your virtual machine to Remote desktop connection, simply go to control pannel and click turn windows features on or off, then enable internet information services, Application development features and check GCI box and common HTTP features.
@@ -48,7 +48,7 @@ Once you connect your virtual machine to Remote desktop connection, simply go to
 <br />
 
 <p>
-<img src="https://i.imgur.com/u4yTnx2.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/IveX1P0.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
 Download PHP ManagerFORIIS_V1.5.0.msi and run the file.
@@ -56,7 +56,7 @@ Download PHP ManagerFORIIS_V1.5.0.msi and run the file.
 <br />
 
 <p>
-<img src="https://i.imgur.com/hUqutbB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/8MGWgOd.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
 Download rewrite_amd64_en-US.msi (Rewrite Module) and install it.
@@ -64,7 +64,7 @@ Download rewrite_amd64_en-US.msi (Rewrite Module) and install it.
 <br />
 
 <p>
-<img src="https://i.imgur.com/Yn7Y1mj.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/v31InTw.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
 Download php-7.3.8-nts-Win32-VC15-x86.zip and go to the top right hand side click 3 dots and click keep it and then keep anyway.
@@ -72,7 +72,7 @@ Download php-7.3.8-nts-Win32-VC15-x86.zip and go to the top right hand side clic
 <br />
 
 <p>
-<img src="https://i.imgur.com/XJbRtup.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/XarvJWG.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
 Make a new PHP folder on C/:Drive, Go to the -> downloads folder right click the -> PHP 7.3.8 folder which you just downloaded and unzip/extract into the C/:Drive folder of PHP.
@@ -80,7 +80,7 @@ Make a new PHP folder on C/:Drive, Go to the -> downloads folder right click the
 <br />
 
 <p>
-<img src="https://i.imgur.com/qLeQnTu.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/yze1mCP.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
 Download VC_redist.x86.exe (MS visual C++ ) open file and install it.
@@ -88,7 +88,7 @@ Download VC_redist.x86.exe (MS visual C++ ) open file and install it.
 <br />
 
 <p>
-<img src="https://i.imgur.com/7BEdL50.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/OOCk62B.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
 Download mysql-5.5.62-win32.msi (My SQL server).
@@ -96,7 +96,7 @@ Download mysql-5.5.62-win32.msi (My SQL server).
 <br />
 
 <p>
-<img src="https://i.imgur.com/2u8I9zq.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/oX57Qvu.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
 After click "Next" make sure you select Typical.
@@ -104,7 +104,7 @@ After click "Next" make sure you select Typical.
 <br />
 
 <p>
-<img src="https://i.imgur.com/WZnPJfu.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/3jEZrYy.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
 Launch Configuration Wizard (after install) click finish, new tab will going to open than select Standard Configuration.
@@ -112,7 +112,7 @@ Launch Configuration Wizard (after install) click finish, new tab will going to 
 <br />
 
 <p>
-<img src="https://i.imgur.com/uULfo7p.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/n63Z0fO.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
 Write it down a new root password Example: "Password1" make sure you don't forget your password, keep it remember.
@@ -120,7 +120,7 @@ Write it down a new root password Example: "Password1" make sure you don't forge
 <br />
 
 <p>
-<img src="https://i.imgur.com/OKaqfwK.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/8BF2mjq.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
 Go to the "Type to search" bar next to the windows icon, type IIS click right and run as a Admin, double click on "PHP Manager" and resgister new PHP version from within IIS.After click on Register new PHP version, Click on 3 dots and go to the C/:Drive PHP folder that we make previously than click php-cgi.
@@ -128,7 +128,7 @@ Go to the "Type to search" bar next to the windows icon, type IIS click right an
 <br />
 
 <p>
-<img src="https://i.imgur.com/f852oAe.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/ejFJBmv.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
 After the PHP Register, Go to the left side on the top and click on "osticket" and restart the Manage server on the right side.
@@ -136,7 +136,7 @@ After the PHP Register, Go to the left side on the top and click on "osticket" a
 <br />
 
 <p>
-<img src="https://i.imgur.com/kDzpfm9.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/hdQbCUP.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
 Download osTicket (osTicket-v1.15.8.) go to the downloads folder and open osTicket downloaded folder,it's going to be 2 folders inside the osTicket folder 1- "upload", 2- "Scripts". Go to the File explore -> C/:Drive click on -> inetpub folder then -> wwwroot folder and move the "upload" folder into the wwwroot by simply drag and drop and rename Upload folder to "osTicket". 
@@ -144,7 +144,8 @@ Download osTicket (osTicket-v1.15.8.) go to the downloads folder and open osTick
 <br />
 
 <p>
-<img src="https://i.imgur.com/bVpR96s.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/kNVmI0X.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+ <img src="https://i.imgur.com/FMLfBzK.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
 Reload IIS (Open IIS, Stop and Start the server) Go to sites -> Default -> osTicket On the right, click “Browse *:80” and the new tab will open you can see osTicket Installer,in order to continue enable a few extensions mark as " X " Cross
@@ -152,7 +153,7 @@ Reload IIS (Open IIS, Stop and Start the server) Go to sites -> Default -> osTic
 <br />
 
 <p>
-<img src="https://i.imgur.com/f2qn9Ij.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/a5tEeZ4.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
 Go back to IIS, sites -> Default -> osTicket  Double-click PHP Manager Click “Enable or disable an extension” Note that some extension are not enable.
@@ -160,7 +161,7 @@ Go back to IIS, sites -> Default -> osTicket  Double-click PHP Manager Click “
 <br />
 
 <p>
-<img src="https://i.imgur.com/A4NGCI2.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/ynFCuHx.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
 Enable: php_imap.dll -> Enable: php_intl.dll -> Enable: php_opcache.dll.
@@ -168,7 +169,7 @@ Enable: php_imap.dll -> Enable: php_intl.dll -> Enable: php_opcache.dll.
 <br />
 
 <p>
-<img src="https://i.imgur.com/sR4sTSn.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/XhAIT03.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
 Refresh the osTicket site in your browse, observe the changes and click continue.
@@ -176,7 +177,7 @@ Refresh the osTicket site in your browse, observe the changes and click continue
 <br />
 
 <p>
-<img src="https://i.imgur.com/2bQ9Isa.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/EwXtBi2.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
 Go to C:\Drive ->inetpub ->wwwroot ->osTicket ->include ->ost-sampleconfig.php, Rename: ost-config.php
@@ -184,7 +185,7 @@ Go to C:\Drive ->inetpub ->wwwroot ->osTicket ->include ->ost-sampleconfig.php, 
 <br />
 
 <p>
-<img src="https://i.imgur.com/EGESdUy.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/zxMEYo2.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
 Assign Permissions: ost-config.php ->Security ->Advance ->Disable inheritance -> Remove All.
@@ -192,7 +193,7 @@ Assign Permissions: ost-config.php ->Security ->Advance ->Disable inheritance ->
 <br />
 
 <p>
-<img src="https://i.imgur.com/SSqsoYp.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/ODrpPJz.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
 New Permissions ->Add ->"click Select a principal on the top" -> write it down Everyone and click on Check Names ->Check all the unchecked boxes and click OK.
@@ -200,7 +201,7 @@ New Permissions ->Add ->"click Select a principal on the top" -> write it down E
 <br />
 
 <p>
-<img src="https://i.imgur.com/QVwmDTz.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/VE7Ebnd.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
 Click Continue and keep Setting up osTicket in the browser ->Name Helpdesk ->Default email(receives email from customers) ->Username ->Password.
@@ -208,7 +209,7 @@ Click Continue and keep Setting up osTicket in the browser ->Name Helpdesk ->Def
 <br />
 
 <p>
-<img src="https://i.imgur.com/9seakMs.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/j863A4V.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
 Download Heidi SQL ->Next ->Install ->Finish.
@@ -216,7 +217,7 @@ Download Heidi SQL ->Next ->Install ->Finish.
 <br />
 
 <p>
-<img src="https://i.imgur.com/SYFUVm1.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/uLDpxg4.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
 Create a new session ->root ->Use the same passowrd of MYSQL Example: "Password1" and click Open.
@@ -224,7 +225,7 @@ Create a new session ->root ->Use the same passowrd of MYSQL Example: "Password1
 <br />
 
 <p>
-<img src="https://i.imgur.com/Mul0ODu.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/FD48TEv.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
 Connect to the session, right click Unnamed ->Create new,Create a database called “osticket”
@@ -232,7 +233,7 @@ Connect to the session, right click Unnamed ->Create new,Create a database calle
 <br />
 
 <p>
-<img src="https://i.imgur.com/SIM0Tp7.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/vBnYyCG.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
 Create a new database Name: "osticket"
@@ -240,7 +241,8 @@ Create a new database Name: "osticket"
 <br />
 
 <p>
-<img src="https://i.imgur.com/PS2m6SA.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/XXVh6SS.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/43TUbGQ.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
 Write it down the Database just created "osticket" into "osTicket System Installer" make sure you use the same user and password of MYSQL and click Install Now.
@@ -248,7 +250,7 @@ Write it down the Database just created "osticket" into "osTicket System Install
 <br />
 
 <p>
-<img src="https://i.imgur.com/QDDIeK9.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/7IhDmF8.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
 Congratulations, it is installed.Browse to your help desk login page:http://localhost/osTicket/scp/login.php End Users osTicket URL: http://localhost/osTicket/ Login with your Username and password which you set up.
@@ -256,7 +258,7 @@ Congratulations, it is installed.Browse to your help desk login page:http://loca
 <br />
 
 <p>
-<img src="https://i.imgur.com/LfBl8k1.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/cTJbFEF.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
 Welcome to osTicket - (Admin Panel)
@@ -265,7 +267,8 @@ Welcome to osTicket - (Admin Panel)
 
 
 <p>
-<img src="https://i.imgur.com/kiEqpOj.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/00Ty52J.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/ulERs2G.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
 Clean up,Go to C:\Drive ->inetpub ->wwwroot ->osTicket -> Delete "Setup folder",Set Permissions to “Read” only: C:\Drive inetpub ->wwwroot ->osTicket ->include ->ost-config.php ->right click & properties->Security & Advanced -> click Everyone then Edit set a permisson by uncheck all boxes and leave Checked Read & execute , Read -> Apply and Ok. Enjoy using osTicket System!!
